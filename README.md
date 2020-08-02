@@ -25,13 +25,15 @@ coding(4)提取词向量并存入对应文件
 
 ### Python:
 
-(1)train_CVAE-AttGAN.py，训练及分类，并将得到的数据特征存储
+(1)Att-CVAEGAN.py，训练及分类，并将得到的数据特征存储到mat文件
 
-(2)真实特征与生成特征的t-SNE可视化展示。语义的展示
+(2)t-SNE.py,真实特征与生成特征的t-SNE可视化展示/语义的展示
 
-(3)分类的混淆矩阵
+(3)confusion_matrix.py,分类结果的混淆矩阵
 
 (4)广义零样本学习
+
+(5)ATT-CVAEGAN-VEC.py基于组合语义的生成方式
 
 (5)小样本学习
 
