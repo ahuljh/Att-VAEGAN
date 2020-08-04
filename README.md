@@ -15,7 +15,8 @@ link is from https://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip
 
 (3)ExtractClassFeatureAndAttribute.m---【读取trainANDtestClass.mat、res101.mat、att_splits.mat】提取训练类与测试类样本及属性并存入XXX.mat文件
 
-coding(4)提取词向量并存入对应文件
+(4)ExtractSeenFeatureSplit.m---将可见类分为训练集及测试集，用于广义零样本学习中可见类别的训练样本及测试样本，保证训练和测试时的样本不交叉
+coding(5)提取词向量并存入对应文件
 
 ### Python:
 
