@@ -13,10 +13,11 @@ link is from https://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip
 
 (2)ReadTrainTest.m---【读取allclasses.txt、testclasses.txt】提取类别编号，获取可见类、未见类、全部类的编号，并存入trainANDtestClass.mat文件
 
-(3)ExtractClassFeatureAndAttribute.m---【读取trainANDtestClass.mat、res101.mat、att_splits.mat】提取训练类与测试类样本及属性并存入XXX.mat文件
+(3)ExtractClassFeatureAndAttribute.m---【读取trainANDtestClass.mat、res101.mat、att_splits.mat】提取训练类与测试类样本及属性并存入XXX.mat文件【零样本设置】
 
-(4)ExtractSeenFeatureSplit.m---将可见类分为训练集及测试集，用于广义零样本学习中可见类别的训练样本及测试样本，保证训练和测试时的样本不交叉
-coding(5)提取词向量并存入对应文件
+(4)ExtractSeenFeatureSplit.m---将XXXX.mat中的可见类分为训练集及测试集，用于广义零样本学习中可见类别的训练样本及测试样本，保证训练和测试时的样本不交叉，最终得到seen_XXXX.mat文件【广义零样本设置】
+
+coding(5)提取词向量并存入对应文件【基于组合语义的设置】
 
 ### Python:
 
