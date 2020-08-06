@@ -34,6 +34,8 @@ coding(5)提取词向量并存入对应文件【基于组合语义的设置】
 (3)confusion_matrix.py,分类结果的混淆矩阵
 
 (4)广义零样本学习
+    归纳式零样本学习Att-CVAEGAN-GZSL(IND).py
+    直推式零样本学习Att-CVAEGAN-GZSL(TRA).py
 
 (5)ATT-CVAEGAN-VEC.py基于组合语义的生成方式
 
