@@ -4,6 +4,7 @@ The paper's code of Att-VAEGAN
 ## 1.Download Dataset（878.98M） of Zero-shot Learning.
 
 link is from https://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip
+组合语义代码 https://datasets.d2.mpi-inf.mpg.de/yxian16cvpr/latEm.zip
 
 ## 2.Data preprocess
 
