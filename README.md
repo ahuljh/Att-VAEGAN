@@ -4,6 +4,7 @@ The paper's code of Att-VAEGAN
 ## 1.Download Dataset（878.98M） of Zero-shot Learning.
 
 link is from https://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip
+
 组合语义代码 https://datasets.d2.mpi-inf.mpg.de/yxian16cvpr/latEm.zip
 
 ## 2.Data preprocess
@@ -28,15 +29,15 @@ coding(5)提取词向量并存入对应文件【基于组合语义的设置】
 
 ### Python:
 
-(1)Att-CVAEGAN.py，训练及分类，并将得到的数据特征存储到mat文件
+(1)Att-VAEGAN.py，训练及分类，并将得到的数据特征存储到mat文件
 
 (2)t-SNE.py,真实特征与生成特征的t-SNE可视化展示/语义的展示
 
 (3)confusion_matrix.py,分类结果的混淆矩阵
 
-(4)Att-CVAEGAN-GZSL.py，直推式广义零样本学习
+(4)Att-VAEGAN-GZSL.py，直推式广义零样本学习
 
-(5)ATT-CVAEGAN-VEC.py基于组合语义的生成方式
+(5)Att-VAEGAN-Vec.py基于组合语义的生成方式
 
 (5)小样本学习
 
